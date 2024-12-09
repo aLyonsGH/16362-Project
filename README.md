@@ -46,7 +46,7 @@ The evaluation folder contains the script "scene_reconstruction.py" which takes 
 2. Connect nearby points in the point cloud to create a 3D mesh of the room
 3. For each bounding box, get the depths of all the points in the box to estimate how deep in the room the object should go
 4. Rescale the object meshes so the ratio of the object to the room is the same as the ratio of the bounding box to the image.
-5. Add the objects to the scene, save the full model, and create the image and depth renderings
+5. Add the objects to the scene, save the full combined mesh, and create the image and depth renderings
 6. Compute the mean squared error between the true and reconstructed depth renderings
 
 Here is a google drive link to the reconstruction results: https://drive.google.com/drive/folders/1E-xZozIeXd7eKF5UlWOgzMCJtdl9QtPC?usp=sharing. Each scene contains the following outputs:
