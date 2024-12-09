@@ -1,7 +1,7 @@
 # 16362-Project - Using Generative Priors for 3D Scene Reconstruction
 
 ## Intro
-The goal of this project was given an image of a scene, to use DreamGaussian as a 3D prior to reconstruct the scene. More details for this project are in the presentation file "Project Presentation.pdf". Unfortunately, many of the scripts take a long time to run, and since the workload has to be split locally and on Google Colab, it would require a long time to setup and run the scripts oneself. Therefore, I included folders of every intermediate results (as well as the final results).
+The goal of this project was given an image of a scene, to use DreamGaussian as a 3D prior to reconstruct the scene. More details for this project are in the presentation file "Project Presentation.pdf". Unfortunately, many of the scripts take a long time to run, and since the workload has to be split locally and on Google Colab, it would require a long time to setup and run the scripts oneself. Therefore, I included folders of every intermediate results (as well as the final results). Sources for any code I copied/adapted are mentioned in their corresponding files.
 
 ## Data Selection
 This project uses the SceneNet dataset: https://robotvault.bitbucket.io/scenenet-rgbd.html
